@@ -1,0 +1,57 @@
+@font-face {
+    font-family: mcFont;
+    src: url(font.ttf);
+}
+header {
+    background-color: rgb(248, 180, 180);
+    padding: 10px;
+    border: double red;
+    margin: 20px 10px;
+    width: 98%;
+    height: 100%;
+    font-size: x-large;
+    color: powderblue;
+    font-family: mcFont;
+    text-align: center;
+    text-shadow: -2px 5px 2px gray;
+}
+main {
+    background-color: #ffd4d4;
+    padding: 10px;
+    border: dotted pink;
+    margin: 20px 10px;
+    width: 98%;
+    height: 100%;
+    font-family: mcFont;
+}
+footer {
+    background-color: #f4d9fc;
+    padding: 5px;
+    border: dashed purple;
+    margin: 20px 10px;
+    width: 98%;
+    height: 100%;
+    font-size: small;
+    font-family: mcFont;
+}
+header a {
+    color:rgb(127, 119, 252);
+    text-shadow: none;
+}
+main a {
+    color:rgb(56, 42, 250);
+    font-size: large;
+    text-decoration: none;
+}
+header nav {
+    letter-spacing: 0.5px;
+}
+main h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+}
+main ol {
+    text-indent: 1em;
+}
+main iframe {
+    padding: 10px;
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: marioFont;
+    src: url(SuperMario256.ttf);
+}
+body {
+    background-color: #5c94fc;
+    font-family: marioFont;
+    text-align: center;
+    color: white;
+}
+table {
+    margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    text-align: center;
+}
